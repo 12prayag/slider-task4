@@ -18,7 +18,8 @@ body {
     text-align: center;
     font-family: Arial;
 }
-.aencr-tage{
+
+.aencr-tage {
     text-decoration: none;
     list-style: none;
     color: white;
@@ -26,15 +27,17 @@ body {
     padding: 12px;
     font-size: 20px;
 }
-.head-task{
+
+.head-task {
     font-size: 30px;
     margin-bottom: 20px;
     font-family: 'jost';
 }
-.title-tage{
+
+.title-tage {
     font-size: 40px;
     margin-bottom: 50px;
-    
+
 }
 
 .splide {
@@ -87,31 +90,33 @@ h1 {
     width: 100%;
     position: relative;
 }
+
 .main-block-img img {
     display: block;
     width: 100%;
     height: 400px;
     object-fit: cover;
-   
+
 }
-.image-center-sec{
+
+.image-center-sec {
 
     z-index: 10;
-     background-color: black;
+    background-color: black;
     opacity: 0.4;
     pointer-events: none;
     z-index: 2;
     position: relative;
 }
 
-.image-center-sec::after{
-    content:"" ;
+.image-center-sec::after {
+    content: "";
     position: absolute;
     inset: 0;
     /* background-color: black; */
     /* opacity: 0.4; */
     /* pointer-events: none; */
-    z-index: 2; 
+    z-index: 2;
 }
 
 .imge-class::after {
@@ -139,15 +144,18 @@ h1 {
     align-items: center;
 
 }
+
 .splide .splide__arrow {
     svg {
         filter: invert(1);
         display: none;
     }
 }
+
 .splide__pagination__page {
     display: none;
 }
+
 /*  */
 /*  */
 .splide {
@@ -232,7 +240,7 @@ h1 {
 .main-wrapper-blocK {
 
     display: flex;
-    align-items:center ;
+    align-items: center;
 }
 
 .main-block-start,
@@ -242,25 +250,45 @@ h1 {
     position: relative;
 }
 
-.header-button-sec{
+.header-button-sec {
     position: absolute;
     align-items: center;
     text-align: center;
     justify-content: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
 }
 
 
 
-.slider__tow-sec img{
-    
-width:100%;
-height:400px;
-object-fit: cover;
+.slider__tow-sec img {
 
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+@media (max-width:767.99px) {
+
+    .main-wrapper-blocK {
+
+        display: flex;
+        flex-direction: column;
+       
     }
-
-
-
+        tow-sec img{
+            width: 100%;
+        }
+        
+                .splide {
+                    padding:0;
+                }
+                                .main-block-start,
+                                .main-block-img,
+                                .main-block-end {
+                                    width:100% ;
+                                    
+                                }
+}
