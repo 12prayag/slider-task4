@@ -38,7 +38,7 @@ body {
 }
 
 .splide {
-    visibility: visible !important;
+    visibility: visible;
 }
 
 
@@ -77,7 +77,7 @@ h1 {
 .loremn-section {
 
     font-size: 20px;
-    
+
 }
 
 /* imge-section */
