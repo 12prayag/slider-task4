@@ -8,6 +8,33 @@
     width: 100%;
     padding-inline: 20px;
     margin-inline: auto;
+    max-width: 1280px;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+}
+.aencr-tage{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    border: white 2px solid;
+    padding: 12px;
+    font-size: 20px;
+}
+.head-task{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'jost';
+}
+.title-tage{
+    font-size: 40px;
+    margin-bottom: 50px;
+    
 }
 
 .splide {
@@ -22,7 +49,7 @@
 
 .wrap-section {
     position: relative;
-   
+
 
 }
 
@@ -31,67 +58,209 @@
     top: 50%;
     z-index: 10;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 80px;
     color: rgb(253, 253, 252);
     text-align: center;
-    font-family:'jost';
+    font-family: 'jost';
     font: message-box;
     max-width: 435px;
-    
+
 }
-h1{
+
+h1 {
     font-size: 60px;
     margin-bottom: 20px;
     max-width: 420px;
 }
-.loremn-section{
+
+.loremn-section {
+
     font-size: 20px;
     
-
 }
+
+/* imge-section */
 
 .imge-class {
     height: 100vh;
     width: 100%;
     position: relative;
+}
+.main-block-img img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+   
+}
+.image-center-sec{
 
+    z-index: 10;
+     background-color: black;
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 2;
+    position: relative;
 }
 
-.imge-class::after{
+.image-center-sec::after{
+    content:"" ;
+    position: absolute;
+    inset: 0;
+    /* background-color: black; */
+    /* opacity: 0.4; */
+    /* pointer-events: none; */
+    z-index: 2; 
+}
+
+.imge-class::after {
     content: "";
     position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
+    inset: 0;
     background-color: black;
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 2;
 }
 
 .imge-class img {
     object-fit: cover;
     height: 100%;
     width: 100%;
-
-
-
-
-
+    z-index: 1;
+    position: relative;
 }
 
+/* img section end */
 .media-section {
     height: 114px;
     width: 88px;
     align-items: center;
 
 }
+.splide .splide__arrow {
+    svg {
+        filter: invert(1);
+        display: none;
+    }
+}
+.splide__pagination__page {
+    display: none;
+}
+/*  */
+/*  */
+.splide {
+    padding: 20px 0;
+}
 
+.splide__track {
+    display: flex;
+
+}
+
+.splide__slide {
+    img {
+        display: block;
+        width: 100%;
+        transition: transform 400ms;
+        transform: scale(.9.5);
+        transform-origin: center center;
+    }
+}
+
+.main-slide {
+    img {
+        display: block;
+        width: 100%;
+        height: 500px;
+
+
+    }
+}
+
+
+.splide__slide.is-active {
+    img {
+        transform: scale(1);
+    }
+}
+
+.splide .splide__arrow {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    transform: none;
+    border-radius: unset;
+    width: 50px;
+    opacity: .9;
+
+    svg {
+        filter: invert(1);
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.splide__arrow.splide__arrow--prev {
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.splide__arrow.splide__arrow--next {
+    right: 0;
+    background: linear-gradient(270deg, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+/*  */
+/*  */
 .under-line {
     display: flex;
     align-items: center;
     gap: 114px;
     list-style-type: none;
-
-
-
 }
+
+/* tow-silder-sec */
+
+.tow-silder-sec {
+    max-height: 550px;
+    padding-block: 100px;
+}
+
+.main-wrapper-blocK {
+
+    display: flex;
+    align-items:center ;
+}
+
+.main-block-start,
+.main-block-img,
+.main-block-end {
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.header-button-sec{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+
+.slider__tow-sec img{
+    
+width:100%;
+height:400px;
+object-fit: cover;
+
+    }
+
+
 
