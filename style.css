@@ -276,19 +276,21 @@ h1 {
 
         display: flex;
         flex-direction: column;
-       
+
     }
-        tow-sec img{
-            width: 100%;
-        }
-        
-                .splide {
-                    padding:0;
-                }
-                                .main-block-start,
-                                .main-block-img,
-                                .main-block-end {
-                                    width:100% ;
-                                    
-                                }
+
+    tow-sec img {
+        width: 100%;
+    }
+
+    .splide {
+        padding: 0;
+    }
+
+    .main-block-start,
+    .main-block-img,
+    .main-block-end {
+        width: 100%;
+
+    }
 }
