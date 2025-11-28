@@ -27,12 +27,12 @@ body {
 
 .headin-func-section {
     color: #666666;
-        padding-bottom: 40px;
-        font-size: 35px;
-        font-weight: 500;
-        letter-spacing: 10px;
-        font-family: "Roboto", serif;
-    
+    padding-bottom: 40px;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-family: "Roboto", serif;
+
 }
 
 .title-sec {
@@ -43,7 +43,7 @@ body {
         serif;
     font-weight: 400;
     margin-bottom: 20px;
-    }
+}
 
 .loremn-section-third {
     font-size: 16px;
@@ -89,6 +89,7 @@ body {
 
 
 }
+
 .title-section {
     position: absolute;
     top: 50%;
