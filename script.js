@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-      var splide = new Splide('.splide', {
+      var splide = new Splide('.main-splide', {
             perPage: 1,
             type: 'loop',
             autoplay: true,
@@ -11,6 +11,28 @@ document.addEventListener('DOMContentLoaded', function () {
       splide.mount();
 });
 
+/////////////////////////////////////////////////////////////////////////
+var towslider = new Splide('.tow-silder', {
+      type: 'loop',
+      perpage: 1,
+      autoplay: true,
+
+});
+
+towslider.mount();
+
+////////////////////////////////////////////////////////////////////////
+
+var towsilderv2 = new Splide('.tow-silder-v2', {
+      type: 'loop',
+      autoplay: true,
+      perpage: 1,
+
+});
+
+towsilderv2.mount();
+
+//////////////////////////////////////////////////////////////////////////
 
 // document.addEventListener('DOMContentLoaded', function () {
 //       new Splide('#splide', {
@@ -34,23 +56,3 @@ document.addEventListener('DOMContentLoaded', function () {
 // });
 
 //////////
-
-var towslider = new Splide('.tow-silder', {
-      type: 'loop',
-      perpage: 1,
-      autoplay:true,
-      
-});
-
-    towslider.mount();
-
-////
-
-var towsilderv2 = new Splide('.tow-silder-v2', {
-      type: 'loop',
-      autoplay: true,
-      perpage: 1,
-      
-});
-
-   towsilderv2.mount();
