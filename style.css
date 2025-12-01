@@ -344,7 +344,7 @@ h1 {
     object-fit: cover;
 
 }
-
+/*  */
 @media (max-width:767.99px) {
 
     .main-wrapper-blocK {
@@ -377,7 +377,7 @@ h1 {
         font-size: 18px;
     }
 }
-
+/*  */
 @media (max-width:556.99px) {
     h1 {
         font-size: 41px;
@@ -387,7 +387,10 @@ h1 {
         font-size: 16px;
     }
 }
-
+/* .imge-class {
+    height: 86vh;
+} */
+/*  */
 @media (max-width:371.99px) {
     h1 {
         font-size: 30px;
@@ -410,4 +413,5 @@ h1 {
     .headin-func-section {
         font-size: 33px;
     }
+               
 }
