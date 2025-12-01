@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
       var splide = new Splide('.main-splide', {
             perPage: 1,
-             type: 'loop',
+            type: 'loop',
             autoplay: true,
             interval: 500,
             interval: 3000,
 
       }
+            
       );
       splide.mount();
-});
+}); 
+  
 
 /////////////////////////////////////////////////////////////////////////
 var towslider = new Splide('.tow-silder', {
@@ -31,6 +33,15 @@ var towsilderv2 = new Splide('.tow-silder-v2', {
 });
 
 towsilderv2.mount();
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
 
 //////////////////////////////////////////////////////////////////////////
 
@@ -55,4 +66,4 @@ towsilderv2.mount();
 //       }).mount();
 // });
 
-//////////
+//////////////////////////////////////////////////////////////////////////
