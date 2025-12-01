@@ -413,5 +413,7 @@ h1 {
     .headin-func-section {
         font-size: 33px;
     }
-               
+                 .imge-class {
+                     height: 84vh;
+                 }
 }
