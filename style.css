@@ -17,28 +17,61 @@ body {
     text-align: center;
     font-family: Arial;
 }
+
+.tow-silder-sec .splide__slide{
+    position: relative;
+}
+
+/* \ */
+.swiper-section {
+    background-color: #e8e6bd;
+    text-align: center;
+    padding: 20px 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.title-swiper {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Roboto", serif;
+
+}
+
+.loremn-swiper {
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+}
+
 /*  */
- .figure {
-     position: relative;
-     min-width: 100%;
+.figure {
+    position: relative;
+    min-width: 100%;
     max-width: 500px;
     overflow: hidden;
- }
+}
 
- .figure img.Sirv.image-hover {
-     position: absolute;
-     top: 0;
-     right: 0;
-     left: 0;
-     bottom: 0;
-     object-fit: contain;
-     opacity: 0;
-     transition: opacity .5s;
- }
+.figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;
+}
 
- .figure:hover img.Sirv.image-hover {
-     opacity: 1;
- }
+.figure:hover img.Sirv.image-hover {
+    opacity: 1;
+}
+
 /*  */
 /*  */
 /*  forth-section*/
@@ -142,13 +175,16 @@ h1 {
     position: relative;
 }
 
-.main-block-img img {
+.image-center-sec {
+    height: 100%;
+}
+
+.image-center-sec img {
     position: relative;
     display: block;
     width: 100%;
-    height: 400px;
+    height: 100%;
     object-fit: cover;
-
 }
 
 .image-center-sec {
@@ -161,13 +197,6 @@ h1 {
     position: relative;
 }
 
-.image-center-sec::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-
-    z-index: 2;
-}
 
 .imge-class::after {
     content: "";
@@ -190,7 +219,7 @@ h1 {
     object-fit: cover;
 }
 
-.main-splide {}
+
 
 /*  */
 /*  */
@@ -256,10 +285,6 @@ h1 {
         filter: invert(1);
         display: none;
     }
-}
-
-.splide__pagination__page {
-    display: none;
 }
 
 /*  */
@@ -336,9 +361,7 @@ h1 {
 }
 
 .main-wrapper-blocK {
-
     display: flex;
-    align-items: center;
 }
 
 .main-block-start,
@@ -363,7 +386,7 @@ h1 {
 .slider__tow-sec img {
 
     width: 100%;
-    height: 400px;
+    height: 100%;
     object-fit: cover;
 
 }
@@ -377,11 +400,11 @@ h1 {
         flex-direction: column;
 
     }
-        .slider__tow-sec img 
-    {
-            object-fit : cover; 
+
+    .slider__tow-sec img {
+        object-fit: cover;
     }
-    
+
     tow-sec img {
         width: 100%;
     }

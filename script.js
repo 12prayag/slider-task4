@@ -7,18 +7,18 @@ document.addEventListener('DOMContentLoaded', function () {
             interval: 3000,
 
       }
-            
+
       );
       splide.mount();
-}); 
-  
+});
+
 
 /////////////////////////////////////////////////////////////////////////
 var towslider = new Splide('.tow-silder', {
       type: 'loop',
       perpage: 1,
       autoplay: true,
-
+      pagination: false,
 });
 
 towslider.mount();
@@ -29,7 +29,7 @@ var towsilderv2 = new Splide('.tow-silder-v2', {
       type: 'loop',
       autoplay: true,
       perpage: 1,
-
+      pagination: false,
 });
 
 towsilderv2.mount();
