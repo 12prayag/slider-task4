@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
       splide.mount();
 });
 
-
 /////////////////////////////////////////////////////////////////////////
+
 var towslider = new Splide('.tow-silder', {
       type: 'loop',
       perpage: 1,
@@ -30,6 +30,7 @@ var towsilderv2 = new Splide('.tow-silder-v2', {
 });
 
 towsilderv2.mount();
+
 //////////////////////////////////////////////////////////////////////////
 
 

@@ -313,7 +313,7 @@ h1 {
     border-radius: unset;
     width: 50px;
     opacity: .9;
-    
+
     svg {
         filter: invert(1);
         width: 24px;
