@@ -16,6 +16,7 @@ var towslider = new Splide('.tow-silder', {
       perpage: 1,
       autoplay: true,
       pagination: false,
+      arrows:false,
 });
 
 towslider.mount();
@@ -27,6 +28,7 @@ var towsilderv2 = new Splide('.tow-silder-v2', {
       autoplay: true,
       perpage: 1,
       pagination: false,
+      arrows:false,
 });
 
 towsilderv2.mount();
