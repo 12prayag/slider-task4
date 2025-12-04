@@ -66,7 +66,7 @@ body {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity .4s ease;
+    transition: opacity .4s ease;   
 }
 .figure:hover .image-hover {
     opacity: 1;
@@ -98,7 +98,6 @@ body {
 .title-sec {
     font-size: 16px;
     color: #666666;
-    text-align: center;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     margin-bottom: 20px;

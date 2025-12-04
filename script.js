@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
             autoplay: true,
             interval: 3000,
 
+            // paginationDirection: 'ttb',
+            // drag: 'free',
+            // snap: true,
+
       });
       splide.mount();
 });
@@ -28,7 +32,8 @@ var towsilderv2 = new Splide('.tow-silder-v2', {
       autoplay: true,
       perpage: 1,
       pagination: false,
-      arrows:false,
+      arrows: false,
+
 });
 
 towsilderv2.mount();
@@ -36,7 +41,19 @@ towsilderv2.mount();
 //////////////////////////////////////////////////////////////////////////
 
 
+// You need to transpile this code
+// import Splide from '@splidejs/splide';
+// import { Video } from '@splidejs/splide-extension-video';
 
+// const splide = new Splide('.splide', {
+//       heightRatio: 0.5625,
+//       cover: true,
+//       video: {
+//             loop: true,
+//       },
+// });
+
+// splide.mount({ Video });
 
 
 
